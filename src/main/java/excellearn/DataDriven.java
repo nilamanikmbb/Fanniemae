@@ -65,54 +65,6 @@ public class DataDriven {
             driver.findElement(By.linkText("REGISTER")).click();
     		Thread.sleep(3000);
 	         }
-        driver.close();
+        driver.quit();
 	}
 	}
-        	
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-//		driver.findElement(By.name("firstName")).sendKeys(cell.getStringCellValue());
-//		driver.findElement(By.name("lastName")).sendKeys(cell.getStringCellValue());
-//		driver.findElement(By.name("phone")).sendKeys(cell.getStringCellValue());
-//		driver.findElement(By.name("userName")).sendKeys(cell.getStringCellValue());
-//		driver.findElement(By.name("address1")).sendKeys(cell.getStringCellValue());
-//		driver.findElement(By.name("city")).sendKeys(cell.getStringCellValue());
-//		driver.findElement(By.name("state")).sendKeys(cell.getStringCellValue());
-//		driver.findElement(By.name("postalCode")).sendKeys(cell.getStringCellValue());
-//		driver.findElement(By.name("country")).click();
-//		Select s=new Select(driver.findElement(By.name("country")));
-//		s.selectByVisibleText("INDIA");
-//		driver.findElement(By.name("register")).click();
-//		driver.navigate().back();
-		//driver.close();
-//		File src=new File("");
-//	    FileInputStream finput = new FileInputStream(src);
-//	   XSSFworkbook = new XSSFWorkbook(finput);
-//	    // Load the sheet in which data is stored.
-//	    XSSFsheet= workbook.getSheetAt(0);
-	   
-//	    {
-//	        // Import data for Email.
-//	        cell = sheet.getRow(i).getCell(1);
-//	        cell.setCellType(Cell.CELL_TYPE_STRING);
-//	        driver.findElement(By.id("login-email")).sendKeys(cell.getStringCellValue());
-//	        // Import data for password.
-//	        cell = sheet.getRow(i).getCell(2);
-//	        cell.setCellType(Cell.CELL_TYPE_STRING);
-//	        driver.findElement(By.id("login-password")).sendKeys(cell.getStringCellValue());
-//		
-//	}
-
-
